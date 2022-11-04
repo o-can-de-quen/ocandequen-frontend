@@ -5,4 +5,6 @@ interface AppProps extends DefaultAppProps {
   emotionCache?: EmotionCache | undefined;
 }
 
-export default AppProps;
+type AppType = React.FunctionComponent<AppProps>;
+
+export default AppType;

@@ -1,15 +1,22 @@
-import React from "react";
-import { CacheProvider, EmotionCache } from "@emotion/react";
-import { ThemeProvider, CssBaseline } from "@mui/material";
+import * as React from "react";
+import { CacheProvider } from "@emotion/react";
+import { ThemeProvider, CssBaseline, createTheme } from "@mui/material";
+import AppType from "./_app.types";
+
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 
 import createEmotionCache from "../utility/createEmotionCache";
-import lightTheme from "../styles/theme/lightTheme";
+import lightThemeOptions from "../styles/theme/lightThemeOptions";
 import "../styles/globals.css";
-import AppProps from "./_app.types";
 
 const clientSideEmotionCache = createEmotionCache();
 
-const App = (props: AppProps) => {
+const lightTheme = createTheme(lightThemeOptions);
+
+const App: AppType = (props) => {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
 
   return (
