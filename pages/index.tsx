@@ -29,7 +29,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>O can de quen</title>
+        <title>O can de quen - Peluquería canina en Pontedeume-</title>
+        <meta
+          name="description"
+          content="Peluquería canina especialistas en perros, gatos y otras mascotas en Pontedeume y Cabanas."
+          key="desc"
+        />
       </Head>
       <Appbar>
         <Hero />
