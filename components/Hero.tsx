@@ -17,7 +17,7 @@ export default function Hero() {
   return (
     <Box
       sx={{
-        backgroundImage: "linear-gradient(rgba(249, 197, 22, 0.7), rgba(249, 197, 22, 0.95)),url(/img/fondoweb.avif)",
+        backgroundImage: "linear-gradient(rgba(249, 197, 22, 0.7), rgba(249, 197, 22, 0.95)),url(/img/fondoweb.webp)",
         backgroundColor: "#363f48",
         backgroundSize: "cover",
         backgroundAttachment: "scroll",
