@@ -22,7 +22,10 @@ export default function Contact() {
               <Typography variant='h1'>O can de quen</Typography>
             </Grid>
             <Grid item justifyContent={"center"}>
-              <Typography variant='p'>Bienvenido a peluquería canina O can de quen, especializada en el cuidado del pelaje de mascotas y animales en Pontedeume. Ofrecemos servicios profesionales de peluquería, baño y tratamientos especiales para mantener a tu mascota siempre hermosa y saludable. ¡Escribenos por Whatsapp o llama y pide tu cita hoy!</Typography>
+              <Typography variant='body1'>Bienvenido a peluquería canina O can de quen, especializada
+                en el cuidado del pelaje de mascotas y animales en Pontedeume. Ofrecemos servicios profesionales 
+                de peluquería, baño y tratamientos especiales para mantener a tu mascota siempre hermosa y saludable. 
+                ¡Escribenos por Whatsapp o llama y pide tu cita hoy!</Typography>
             </Grid>
           </Grid>
           <Grid item container xs={12} sm={12} md={6} justifyContent={"center"} spacing={3} flexDirection='column'>
