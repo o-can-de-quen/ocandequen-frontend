@@ -32,7 +32,7 @@ export default function Home() {
         <title>O can de quen - Peluquería canina en Pontedeume-</title>
         <meta
           name="description"
-          content="Peluquería canina especialistas en perros, gatos y otras mascotas en Pontedeume y Cabanas."
+          content="Peluquería canina en Pontedeume con servicios de peluquería para mascotas, incluyendo corte, peinado y baño. ¡Reserva tu cita en nuestra peluquería de animales!"
           key="desc"
         />
       </Head>
