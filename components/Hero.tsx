@@ -30,13 +30,13 @@ export default function Hero() {
       <Container maxWidth='md'>
         <Grid container spacing={8}>
           <Grid item xs={12} sm={12} md={6} sx={{ background: "transparent", display: "flex", justifyContent: "center" }}>
-            <img src='/logo_blanco.svg' alt='Vercel Logo' style={{ width: "100%", filter: "drop-shadow(3px 5px 12px rgb(0 0 0 / 0.3))" }} />
+            <img src='/logo_blanco.svg' alt='o can de quen' style={{ width: "100%", filter: "drop-shadow(3px 5px 12px rgb(0 0 0 / 0.3))" }} />
           </Grid>
 
           <Grid item xs={12} sm={12} md={6} sx={{ background: "white", backgroundColor: "transparent" }}>
             <Card sx={{ p: 1 }}>
               <CardActionArea>
-                <CardMedia component='img' height='300' image='/img/mandi.webp' alt='green iguana' />
+                <CardMedia component='img' height='300' image='/img/mandi.webp' alt='fot o de un gato' />
                 <CardContent>
                   <Typography gutterBottom variant='h5' component='div'>
                     Peluquería de mascotas
