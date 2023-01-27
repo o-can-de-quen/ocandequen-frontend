@@ -29,10 +29,19 @@ export default function Home() {
   return (
     <>
       <Head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6R7T7JPYD3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-6R7T7JPYD3');
+        </script>
         <title>O can de quen - Peluquería canina en Pontedeume-</title>
         <meta
           name="description"
-          content="Peluquería canina en Pontedeume con servicios de peluquería para mascotas, incluyendo corte, peinado y baño. ¡Reserva tu cita en nuestra peluquería de animales!"
+          content="O can de quen, peluquería canina en Pontedeume con servicios de  corte, peinado, baño y deslanado. ¡Pide tu cita en nuestra peluquería de mascotas!"
           key="desc"
         />
       </Head>
