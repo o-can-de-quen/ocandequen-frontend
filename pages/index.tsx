@@ -23,13 +23,13 @@ import CleaningServicesIcon from "@mui/icons-material/CleaningServices";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import Script from "next/script"
 
 export default function Home() {
   const isMobile = useMediaQuery((theme: Theme) => theme.breakpoints.down("md"));
   return (
     <>
       <Head>
-        <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-6R7T7JPYD3"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
