@@ -27,37 +27,47 @@ export default function Hero() {
         py: "100px",
       }}
     >
-      <Container maxWidth='md'>
+      <Container maxWidth="md">
         <Grid container spacing={8}>
-          <Grid item xs={12} sm={12} md={6} sx={{ background: "transparent", display: "flex", justifyContent: "center" }}>
-            <img src='/logo_blanco.svg' alt='o can de quen' style={{ width: "100%", filter: "drop-shadow(3px 5px 12px rgb(0 0 0 / 0.3))" }} />
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            sx={{ background: "transparent", display: "flex", justifyContent: "center" }}
+          >
+            <img
+              src="/logo_blanco.svg"
+              alt="o can de quen"
+              style={{ width: "100%", filter: "drop-shadow(3px 5px 12px rgb(0 0 0 / 0.3))" }}
+            />
           </Grid>
 
           <Grid item xs={12} sm={12} md={6} sx={{ background: "white", backgroundColor: "transparent" }}>
             <Card sx={{ p: 1 }}>
               <CardActionArea>
-                <CardMedia component='img' height='300' image='/img/mandi.webp' alt='fot o de un gato' />
+                <CardMedia component="img" height="300" image="/img/fran.jpeg" alt="fot o de un perro" />
                 <CardContent>
-                  <Typography gutterBottom variant='h5' component='div'>
+                  <Typography gutterBottom variant="h5" component="div">
                     Peluquería de mascotas
                   </Typography>
-                  <Typography variant='subtitle1' color='textSecondary'>
+                  <Typography variant="subtitle1" color="textSecondary">
                     Especialistas en el cuidado de tus mascotas.
                   </Typography>
 
-                  <Typography variant='subtitle1' color='textSecondary'>
+                  <Typography variant="subtitle1" color="textSecondary">
                     Lunes - Jueves: 09:30-13:30 y 15:30-19:30
                   </Typography>
-                  <Typography variant='subtitle1' color='textSecondary'>
+                  <Typography variant="subtitle1" color="textSecondary">
                     Viernes: 11:00-19:00
                   </Typography>
-                  <Typography variant='subtitle1' color='textSecondary'>
+                  <Typography variant="subtitle1" color="textSecondary">
                     Sabado: 09:30-13:30
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions style={{ display: "flex", justifyContent: "center" }}>
-                <Button size='large' variant='contained' color='primary' startIcon={<CallIcon />}>
+                <Button size="large" variant="contained" color="primary" startIcon={<CallIcon />}>
                   Llamanos
                 </Button>
               </CardActions>
