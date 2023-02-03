@@ -23,21 +23,47 @@ import CleaningServicesIcon from "@mui/icons-material/CleaningServices";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import { description, title } from "../constants";
-import Hero2 from "../components/Hero2";
 
 export default function Home() {
+  const isMobile = useMediaQuery((theme: Theme) => theme.breakpoints.down("md"));
   return (
     <>
       <Head>
-        <title>{title}</title>
-        <meta name="description" key="desc" content={description} />
+        <title>O can de quen - Peluquería canina en Pontedeume-</title>
+        <meta
+          name="description"
+          content="Peluquería canina especialistas en perros, gatos y otras mascotas en Pontedeume y Cabanas."
+          key="desc"
+        />
       </Head>
       <AppLayout>
         <Hero />
-        <Hero2 />
         <Services />
         <Contact />
+        <Box>
+          <a
+            href="https://wa.me/34613651290"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              position: "fixed",
+              width: "60px",
+              height: "60px",
+              bottom: "40px",
+              right: "40px",
+              backgroundColor: "#25d366",
+              color: "#FFF",
+              borderRadius: "100%",
+              textAlign: "center",
+              zIndex: 10,
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <WhatsAppIcon sx={{ width: 40, height: 40 }} />
+          </a>
+        </Box>
       </AppLayout>
     </>
   );

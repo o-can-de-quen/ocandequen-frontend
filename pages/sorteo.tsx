@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Appbar from "../components/AppBar";
+import AppLayout from "../components/templates/AppLayout";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
@@ -32,7 +32,7 @@ export default function Home() {
         <title>O can de quen</title>
         <meta name="robots" content="noindex" />
       </Head>
-      <Appbar>
+      <AppLayout>
         <Box sx={{ background: "#f2f6fa", py: "100px" }}>
           <Container maxWidth="lg">
             <Grid container spacing={3}>
@@ -326,7 +326,7 @@ export default function Home() {
             <WhatsAppIcon sx={{ width: 40, height: 40 }} />
           </a>
         </Box>
-      </Appbar>
+      </AppLayout>
     </>
   );
 }
