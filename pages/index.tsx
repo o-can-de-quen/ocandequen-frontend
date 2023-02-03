@@ -16,11 +16,6 @@ export default function Home() {
       <Head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-6R7T7JPYD3"></script>
         {/* <!-- Google Tag Manager --> */}
-        <Script id="google-tag-manager" strategy="afterInteractive">
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T7G2J8C');`}
-        </Script>
-
-        {/* <!-- End Google Tag Manager --> */}
         <title>O can de quen - Peluquería canina en Pontedeume-</title>
         <meta
           name="description"
