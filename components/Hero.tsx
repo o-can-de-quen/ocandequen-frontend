@@ -46,7 +46,7 @@ export default function Hero() {
           <Grid item xs={12} sm={12} md={6} sx={{ background: "white", backgroundColor: "transparent" }}>
             <Card sx={{ p: 1 }}>
               <CardActionArea>
-                <CardMedia component="img" height="300" image="/img/fran.jpeg" alt="fot o de un perro" />
+                <CardMedia component="img" height="300" image="/img/frida.jpg" alt="fot o de un perro" />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
                     Peluquería de mascotas
