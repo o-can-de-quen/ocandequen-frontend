@@ -48,7 +48,7 @@ const CollapsibleMenu: React.FC<CollapsibleMenuProps> = (props) => {
       >
         <Box onClick={toggleMenu} sx={styles.container}>
           <Image
-            src="/logoBar.svg"
+            src="/logobar.svg"
             alt="Vercel Logo"
             width={iconWidth}
             height={iconHeight}
