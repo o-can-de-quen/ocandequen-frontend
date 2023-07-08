@@ -5,6 +5,7 @@ import Services from "../components/Services";
 import Contact from "../components/Contact";
 import { description, title } from "../constants";
 import Hero2 from "../components/Hero2";
+import Reviews from "../components/organisms/Reviews/Reviews";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <AppLayout>
         <Hero />
+        {/* <Reviews /> */}
         <Services />
         <Contact />
       </AppLayout>

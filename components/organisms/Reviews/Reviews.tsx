@@ -6,11 +6,11 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import { Theme } from "@mui/material";
 import { useMediaQuery } from "@mui/material";
-import styles from "./Hero.styles";
+import styles from "./Reviews.styles";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import Image from "next/image";
 
-export default function Hero() {
+export default function Reviews() {
   const isMobile = useMediaQuery((theme: Theme) =>
     theme.breakpoints.down("md")
   );
@@ -22,7 +22,7 @@ export default function Hero() {
           Peluquería canina y otras mascotas 😉
         </Typography>
         <Typography variant="title" sx={styles.title}>
-          Los mejores compañeros de la vida tienen cuatro patas.
+          Las mejores cosas de la vida tienen cuatro patas.
         </Typography>
 
         <Card sx={styles.cardContainer}>
