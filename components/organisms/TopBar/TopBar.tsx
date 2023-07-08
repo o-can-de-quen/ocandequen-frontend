@@ -48,7 +48,7 @@ const TopBar: React.FC<TopBarProps> = (props) => {
           </IconButton>
 
           <Image
-            src="/logoBar.svg"
+            src="/logobar.svg"
             alt="Vercel Logo"
             width={iconWidth}
             height={iconHeight}
