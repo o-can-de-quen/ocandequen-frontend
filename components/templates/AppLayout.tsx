@@ -1,6 +1,6 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import { headerHeight } from "../../constants";
+import { headerHeightInPx } from "../../constants";
 import Menu from "../organisms/Menu";
 import FloatWhatsAppIcon from "../atoms/FloatWhatsAppIcon";
 
@@ -15,7 +15,7 @@ const AppLayout: React.FC<AppLayoutProps> = (props) => {
     <Box sx={{ display: "flex" }}>
       <Menu />
       <FloatWhatsAppIcon />
-      <Box component="main" sx={{ mt: headerHeight, width: "100%" }}>
+      <Box component="main" sx={{ mt: headerHeightInPx, width: "100%" }}>
         {children}
       </Box>
     </Box>

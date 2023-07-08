@@ -1,7 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import TopBar from "../organisms/TopBar";
-import CollapsibleMenu from "../organisms/CollapsibleMenu";
+import TopBar from "./TopBar/TopBar";
+import CollapsibleMenu from "./CollapsibleMenu/CollapsibleMenu";
 
 interface MenuProps {}
 
