@@ -50,6 +50,7 @@ export default function Hero() {
           <Button
             variant="contained"
             color="primary"
+            href="tel:+34613651290"
             fullWidth
             disableElevation
           >
