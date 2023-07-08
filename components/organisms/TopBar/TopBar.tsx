@@ -72,6 +72,7 @@ const TopBar: React.FC<TopBarProps> = (props) => {
             aria-label="open drawer"
             size="large"
             onClick={toggleMenu}
+            href="/auth/login"
           >
             <AccountCircleIcon fontSize={"large"} />
           </IconButton>

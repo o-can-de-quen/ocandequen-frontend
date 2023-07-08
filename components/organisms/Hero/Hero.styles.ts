@@ -3,7 +3,7 @@ import { headerHeightInPx, paddingVerticalToolbar } from "../../../constants";
 
 const styles: ComponentStyle = {
   background: {
-    backgroundImage: "url(/img/background.png)",
+    // backgroundImage: "url(/img/2.webp)",
     backgroundSize: "cover",
     backgroundPosition: "center",
   },

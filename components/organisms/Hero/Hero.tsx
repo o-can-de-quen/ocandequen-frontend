@@ -22,7 +22,7 @@ export default function Hero() {
           Peluquería canina y otras mascotas 😉
         </Typography>
         <Typography variant="title" sx={styles.title}>
-          Las mejores cosas de la vida son peludas
+          Las mejores cosas de la vida tienen cuatro patas.
         </Typography>
 
         <Card sx={styles.cardContainer}>
