@@ -28,7 +28,7 @@ export default function Hero() {
         <Card sx={styles.cardContainer}>
           <Box sx={styles.imageContainer}>
             <Image
-              src={"/img/mandi.webp"}
+              src={"/img/kira.jpg"}
               alt={"Cliente del mes"}
               style={{ aspectRatio: "4/3", objectFit: "cover" }}
               fill
