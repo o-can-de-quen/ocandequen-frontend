@@ -4,17 +4,11 @@ import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
-import { Theme } from "@mui/material";
-import { useMediaQuery } from "@mui/material";
 import styles from "./Hero.styles";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import Image from "next/image";
 
 export default function Hero() {
-  const isMobile = useMediaQuery((theme: Theme) =>
-    theme.breakpoints.down("md")
-  );
-
   return (
     <Box sx={styles.background}>
       <Container maxWidth="lg" sx={styles.container}>
@@ -37,7 +31,7 @@ export default function Hero() {
 
           <CardContent>
             <Typography gutterBottom variant="cardTitle" component="div">
-              ¡Portada del mes!
+              ¡Kira es la portada del mes! 🎉🎉🎉
             </Typography>
           </CardContent>
         </Card>

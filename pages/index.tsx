@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <AppLayout>
         <Hero />
-        {/* <Reviews /> */}
+        <Reviews />
         <Services />
         <Contact />
       </AppLayout>
