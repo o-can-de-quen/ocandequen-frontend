@@ -7,7 +7,7 @@ const styles: ComponentStyle = {
     flexDirection: "column",
     overflow: "hidden",
     justifyContent: "center",
-    gap: 2,
+    gap: 3,
   },
 
   carouselWrapper: {
