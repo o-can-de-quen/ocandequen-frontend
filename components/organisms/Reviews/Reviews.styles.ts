@@ -10,8 +10,7 @@ const styles: ComponentStyle = {
     paddingBottom: { xs: 5, md: 10 },
     display: "grid",
     gridTemplateColumns: "[col0] 1fr [col1] ",
-    gridTemplateRows:
-      "[row0] auto [row1] auto [row2] auto [row3] auto [row4]  ",
+    gridTemplateRows: "[row0] auto [row1] auto [row2] auto [row3] auto [row4] ",
     gap: 2,
   },
   circleWrapper: {
@@ -46,6 +45,7 @@ const styles: ComponentStyle = {
     display: "flex",
     width: "100%",
     overflow: "hidden",
+    justifyContent: "center",
   },
 
   circle: {
@@ -70,22 +70,6 @@ const styles: ComponentStyle = {
     fontWeight: "400",
     lineHeight: "32px",
     maxWidth: "400px",
-  },
-  review: {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    pt: 4,
-  },
-  text: {
-    px: 4,
-    py: 2,
-  },
-  reviewContent: {
-    background: "white",
-    display: "flex",
-    justifyContent: "center",
   },
 };
 
