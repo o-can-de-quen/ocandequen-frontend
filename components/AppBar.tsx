@@ -56,17 +56,17 @@ export default function Appbar(props: Props) {
       </List> */}
       <Stack spacing={1.5} direction='row' alignItems='center' justifyContent={"center"} sx={{ mt: 5 }}>
         <Tooltip title='Siguenos en Tiktok' placement={"top"}>
-          <a target='_blank' rel='noreferrer' href='https://www.tiktok.com/@o.can.de.quen'>
+          <a target='_blank'  href='https://www.tiktok.com/@o.can.de.quen'>
             <Image src='/tiktok.svg' alt='tiktok' width={20} height={20} />
           </a>
         </Tooltip>
         <Tooltip title='Siguenos en facebook' placement={"top"}>
-          <a target='_blank' rel='noreferrer' href='https://www.facebook.com/profile.php?id=100087048889549'>
+          <a target='_blank'  href='https://www.facebook.com/profile.php?id=100087048889549'>
             <Image src='/facebook.svg' alt='facebook' width={20} height={20} />
           </a>
         </Tooltip>
         <Tooltip title='Siguenos en instagram' placement={"top"}>
-          <a target='_blank' rel='noreferrer' href='https://www.instagram.com/o.can.de.quen'>
+          <a target='_blank'  href='https://www.instagram.com/o.can.de.quen'>
             <Image src='/instagram.svg' alt='instagram' width={20} height={20} />
           </a>
         </Tooltip>
