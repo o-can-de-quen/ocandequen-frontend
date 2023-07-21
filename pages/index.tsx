@@ -46,7 +46,7 @@ export default function Home() {
           <a
             href="https://wa.me/34613651290"
             target="_blank"
-            rel="noopener noreferrer"
+
             style={{
               position: "fixed",
               width: "60px",
