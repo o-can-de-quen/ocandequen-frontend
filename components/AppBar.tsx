@@ -41,7 +41,7 @@ export default function Appbar(props: Props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant='h6' sx={{ my: 2 }}>
+      <Typography variant="h6" sx={{ my: 2 }}>
         O CAN DE QUEN
       </Typography>
       <Divider />
@@ -54,20 +54,20 @@ export default function Appbar(props: Props) {
           </ListItem>
         ))}
       </List> */}
-      <Stack spacing={1.5} direction='row' alignItems='center' justifyContent={"center"} sx={{ mt: 5 }}>
-        <Tooltip title='Siguenos en Tiktok' placement={"top"}>
-          <a target='_blank'  href='https://www.tiktok.com/@o.can.de.quen'>
-            <Image src='/tiktok.svg' alt='tiktok' width={20} height={20} />
+      <Stack spacing={1.5} direction="row" alignItems="center" justifyContent={"center"} sx={{ mt: 5 }}>
+        <Tooltip title="Siguenos en Tiktok" placement={"top"}>
+          <a href="https://www.tiktok.com/@o.can.de.quen">
+            <Image src="/tiktok.svg" alt="tiktok" width={20} height={20} />
           </a>
         </Tooltip>
-        <Tooltip title='Siguenos en facebook' placement={"top"}>
-          <a target='_blank'  href='https://www.facebook.com/profile.php?id=100087048889549'>
-            <Image src='/facebook.svg' alt='facebook' width={20} height={20} />
+        <Tooltip title="Siguenos en facebook" placement={"top"}>
+          <a href="https://www.facebook.com/profile.php?id=100087048889549">
+            <Image src="/facebook.svg" alt="facebook" width={20} height={20} />
           </a>
         </Tooltip>
-        <Tooltip title='Siguenos en instagram' placement={"top"}>
-          <a target='_blank'  href='https://www.instagram.com/o.can.de.quen'>
-            <Image src='/instagram.svg' alt='instagram' width={20} height={20} />
+        <Tooltip title="Siguenos en instagram" placement={"top"}>
+          <a href="https://www.instagram.com/o.can.de.quen">
+            <Image src="/instagram.svg" alt="instagram" width={20} height={20} />
           </a>
         </Tooltip>
       </Stack>
@@ -76,21 +76,32 @@ export default function Appbar(props: Props) {
 
   const container = window !== undefined ? () => window().document.body : undefined;
   const isMobile = useMediaQuery((theme: Theme) => theme.breakpoints.down("md"));
-  const logo = <Image src='/logobar.svg' alt='Vercel Logo' width={250} height={50} priority />;
+  const logo = <Image src="/logobar.svg" alt="Vercel Logo" width={250} height={50} priority />;
 
   return (
     <Box sx={{ display: "flex" }}>
-      <MuiAppBar component='nav' sx={{ background: "white" }}>
+      <MuiAppBar component="nav" sx={{ background: "white" }}>
         <Toolbar sx={{ py: "20px" }}>
-          <Container maxWidth='md' sx={{ display: "flex", justifyContent: "space-between", width: "100%" }}>
-            <IconButton color='inherit' aria-label='open drawer' edge='start' onClick={handleDrawerToggle} sx={{ mr: 2, display: { md: "none" } }}>
+          <Container maxWidth="md" sx={{ display: "flex", justifyContent: "space-between", width: "100%" }}>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              edge="start"
+              onClick={handleDrawerToggle}
+              sx={{ mr: 2, display: { md: "none" } }}
+            >
               <MenuIcon />
             </IconButton>
 
             {isMobile ? <Box sx={{ display: "flex", width: "100%", justifyContent: "flex-end" }}>{logo}</Box> : logo}
 
             {!isMobile ? (
-              <Stack spacing={1.5} direction='row' alignItems='center' divider={<Divider orientation='vertical' sx={{ height: 20, my: "auto" }} />}>
+              <Stack
+                spacing={1.5}
+                direction="row"
+                alignItems="center"
+                divider={<Divider orientation="vertical" sx={{ height: 20, my: "auto" }} />}
+              >
                 {/* <Box>
                   {navItems.map((item) => (
                     <Button key={item} sx={{ color: "#000" }}>
@@ -98,20 +109,20 @@ export default function Appbar(props: Props) {
                     </Button>
                   ))}
                 </Box> */}
-                <Stack spacing={1.5} direction='row' alignItems='center'>
-                  <Tooltip title='Siguenos en Tiktok' placement={"top"}>
-                    <a target='_blank' rel='noreferrer' href='https://www.tiktok.com/@o.can.de.quen'>
-                      <Image src='/tiktok.svg' alt='tiktok' width={20} height={20} />
+                <Stack spacing={1.5} direction="row" alignItems="center">
+                  <Tooltip title="Siguenos en Tiktok" placement={"top"}>
+                    <a target="_blank" rel="noreferrer" href="https://www.tiktok.com/@o.can.de.quen">
+                      <Image src="/tiktok.svg" alt="tiktok" width={20} height={20} />
                     </a>
                   </Tooltip>
-                  <Tooltip title='Siguenos en facebook' placement={"top"}>
-                    <a target='_blank' rel='noreferrer' href='https://www.facebook.com/profile.php?id=100087048889549'>
-                      <Image src='/facebook.svg' alt='facebook' width={20} height={20} />
+                  <Tooltip title="Siguenos en facebook" placement={"top"}>
+                    <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100087048889549">
+                      <Image src="/facebook.svg" alt="facebook" width={20} height={20} />
                     </a>
                   </Tooltip>
-                  <Tooltip title='Siguenos en instagram' placement={"top"}>
-                    <a target='_blank' rel='noreferrer' href='https://www.instagram.com/o.can.de.quen'>
-                      <Image src='/instagram.svg' alt='instagram' width={20} height={20} />
+                  <Tooltip title="Siguenos en instagram" placement={"top"}>
+                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com/o.can.de.quen">
+                      <Image src="/instagram.svg" alt="instagram" width={20} height={20} />
                     </a>
                   </Tooltip>
                 </Stack>
@@ -120,10 +131,10 @@ export default function Appbar(props: Props) {
           </Container>
         </Toolbar>
       </MuiAppBar>
-      <Box component='nav'>
+      <Box component="nav">
         <Drawer
           container={container}
-          variant='temporary'
+          variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{
@@ -137,7 +148,7 @@ export default function Appbar(props: Props) {
           {drawer}
         </Drawer>
       </Box>
-      <Box component='main' sx={{ mt: "90px", width: "100%" }}>
+      <Box component="main" sx={{ mt: "90px", width: "100%" }}>
         {children}
       </Box>
     </Box>

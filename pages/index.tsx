@@ -10,15 +10,10 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import Script from "next/script";
 
 export default function Home() {
-  const isMobile = useMediaQuery((theme: Theme) =>
-    theme.breakpoints.down("md")
-  );
+  const isMobile = useMediaQuery((theme: Theme) => theme.breakpoints.down("md"));
   return (
     <>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-6R7T7JPYD3"
-      />
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-6R7T7JPYD3" />
       <Head>
         {/* <!-- Google Tag Manager --> */}
         <title>O can de quen - Peluquería canina en Pontedeume </title>
@@ -28,14 +23,8 @@ export default function Home() {
           key="desc"
         />
         <meta name="robots" content="index, follow" />
-        <meta
-          name="keywords"
-          content="peluqueria canina, peluqueria de mascotas, pontedeume, cabanas, cabañas"
-        />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
-        />
+        <meta name="keywords" content="peluqueria canina, peluqueria de mascotas, pontedeume, cabanas, cabañas" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
         <link rel="canonical" href="https://ocandequen.es/" />
       </Head>
       <Appbar>
@@ -46,7 +35,7 @@ export default function Home() {
           <a
             href="https://wa.me/34613651290"
             target="_blank"
-
+            rel="noreferrer"
             style={{
               position: "fixed",
               width: "60px",
