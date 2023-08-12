@@ -1,19 +1,13 @@
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import styles from "./Reviews.styles";
-import {
-  Card,
-  CardContent,
-  IconButton,
-  Rating,
-  Typography,
-} from "@mui/material";
+import { Card, CardContent, IconButton, Rating, Typography } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Carousel from "../../molecules/Carousel/Carousel";
 import Review from "../../molecules/Review/Review";
-
+import { IReview } from "../../../@types/Review.type";
 
 const review = {
   name: "Juan Perez",
@@ -22,17 +16,24 @@ const review = {
 };
 
 const MAX = 100;
-const responsive = {
-  0: { items: 1 },
-  568: { items: 2 },
-  1024: { items: 3 },
-};
 
 export default function Reviews() {
-  const reviewText =
-    review.content.length > MAX
-      ? review.content.substring(0, MAX - 3) + "..."
-      : review.content;
+  const reviewText = review.content.length > MAX ? review.content.substring(0, MAX - 3) + "..." : review.content;
+  const [reviews, setReviews] = useState<IReview[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<unknown>(undefined);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      fetch("http://localhost:8080/review")
+        .then((response) => response.json())
+        .then((json) => setReviews(json));
+    };
+    fetchData();
+  }, []);
+
+  console.log(reviews);
+
   return (
     <Box sx={styles.background}>
       <Container maxWidth="lg" sx={styles.container}>
@@ -43,22 +44,15 @@ export default function Reviews() {
           <Typography sx={styles.title}>Reseñas</Typography>
         </Box>
         <Box sx={styles.subtitleWrapper}>
-          <Typography sx={styles.subtitle}>
-            Esto es lo que opinan nuestros clientes de nosotros
-          </Typography>
+          <Typography sx={styles.subtitle}>Esto es lo que opinan nuestros clientes de nosotros</Typography>
         </Box>
 
         <Box sx={styles.reviews}>
           <Carousel
             width={250}
-            items={[
-              <Review key={1} index={1} review={review} />,
-              <Review key={2} index={2} review={review} />,
-              <Review key={3} index={3} review={review} />,
-              <Review key={4} index={4} review={review} />,
-              <Review key={5} index={5} review={review} />,
-              <Review key={6} index={6} review={review} />,
-            ]}
+            items={reviews.map((review, index) => (
+              <Review key={index} review={review} />
+            ))}
           />
         </Box>
       </Container>

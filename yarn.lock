@@ -349,10 +349,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fontsource/cookie@^4.5.8":
-  version "4.5.9"
-  resolved "https://registry.yarnpkg.com/@fontsource/cookie/-/cookie-4.5.9.tgz#8baeaf515e4d95e7280d3ce1b417eef0b2a9df7b"
-  integrity sha512-A79A+/q84p2GqS9RLXBB7DKah8OCCwI5CL76z8GGjsPmd2w0x6Xx2UUjkqKvxn32Bs44ppVrdL0BIyJqNnmGaw==
+"@fontsource/cookie@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/cookie/-/cookie-5.0.5.tgz#2a4455bd6b7854f244da7aa21384d2dd696afdcd"
+  integrity sha512-xvzVDU9INZXREiKymiEfcSnfEMcRIf/w8wC5G2lpv8guV8EIaS/yQpUSsMRgoR0ROr7qtcUR79pQcuUGE03gyw==
 
 "@fontsource/roboto@^4.5.8":
   version "4.5.8"
