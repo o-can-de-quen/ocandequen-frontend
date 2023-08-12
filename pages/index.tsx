@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-6R7T7JPYD3" />
       <Head>
-        {/* <!-- Google Tag Manager --> */}
+        {/* <!--  Google Tag Manager --> */}
         <title>O can de quen - Peluquería canina en Pontedeume </title>
         <meta
           name="description"
