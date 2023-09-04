@@ -65,7 +65,7 @@ export default function Hero() {
                 <CardMedia
                   component="img"
                   height="300"
-                  image="/img/kira2.png"
+                  image="/img/agosto.jpg"
                   alt="fot o de un perro"
                 />
                 <CardContent>
