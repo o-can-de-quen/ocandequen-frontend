@@ -40,21 +40,18 @@ export default function Home() {
               </Grid>
               <Grid item xs={12}>
                 <Typography>
-                  La Promoción está abierta para que participen en ella todas las Personas que cumplan la condición de haber nombrado al menos a 3 personas en los comentarios de los post (en adelante
-                  los “Participantes”). No podrán participar las personas que no cumplan la condición anterior, los empleados de O can de quen, sus familias, sus agentes o cualquier tercero
+                  La Promoción está abierta para todos los clientes. Cada vez que contraten un servicio basico, medio o completo en la peluquería canina contará como una participación (en adelante
+                  los “Participantes”). No podrán participar las personas que no cumplan la condición anterior, los empleados de O can de quen, sus familias de primer grado, sus agentes o cualquier tercero
                   directamente relacionado con la gestión de la Promoción. El Responsable se reserva todos los derechos para solicitar la información o documentación necesaria para verificar que los
                   Participantes cumplan con todas las condiciones necesarias para ser considerado una Persona Incluida.
                 </Typography>
               </Grid>
               <Grid item xs={12}>
-                <Typography>La promoción es de carácter gratuito no siendo necesaria la compra o pago de importe alguno para la participación.</Typography>
+                <Typography>La promoción es de carácter gratuito no siendo necesaria la compra o pago de importe alguno para la participación tan solo de un servicio ofertado por participación.</Typography>
               </Grid>
               <Grid item xs={12}>
                 <Typography>
-                  Solo se permite una participación por persona. Sólo las personas físicas son aptas para participar. Las personas que residan fuera d ela provincia de la Coruña, no podrán participar
-                  en la Promoción. Sólo se aceptarán las participaciones enviadas a través del método oficial designado para el registro en la Promoción. El Responsable no aceptará participaciones que
-                  (a) sean generadas automáticamente por ordenador o cualquier otro sistema; (b) sean completadas por terceros o de forma masiva; o (c) sean ilegibles, incompletas, fraudulentas,
-                  alteradas, reconstruidas, falsificadas o manipuladas.
+                  Solo se permite multiples participaciones por persona, una por cada servicios que haya consumido.
                 </Typography>
               </Grid>
               <Grid item xs={12}>
@@ -65,7 +62,7 @@ export default function Home() {
               </Grid>
               <Grid item xs={12}>
                 <Typography>
-                  La Fecha de Inicio y la de Finalización para formalizar la participación son desde el momento en que se publiquen en redes sociales hasta el día 23/12/22 a la hora de 13:00. Las
+                  La Fecha de Inicio y la de Finalización para formalizar la participación son desde el momento en que se publiquen en redes sociales hasta el día 23/12/23 a la hora de 13:00. Las
                   participaciones recibidas después de la hora de Finalización no serán tenidas en cuenta.
                 </Typography>
               </Grid>
@@ -85,8 +82,7 @@ export default function Home() {
               </Grid>
               <Grid item xs={12}>
                 <Typography>
-                  Un ganador, o varios ganadores, serán elegidos por el método de selección y de acuerdo con los criterios de selección aplicables y en la fecha indicada en los Términos y Condiciones
-                  Especiales.
+                  Un ganador, será elegido tras la fecha fin de sorteo introduciendo todas las participaciones en la aplicación https://app-sorteos.com/
                 </Typography>
               </Grid>
               <Grid item xs={12}>
@@ -131,8 +127,7 @@ export default function Home() {
               </Grid>
               <Grid item xs={12}>
                 <Typography>
-                  El premio no incluye seguro de viaje, el coste del viaje hacia y desde el lugar del evento, comidas y bebidas, gastos, impuestos o gastos personales, a menos que se indique
-                  expresamente lo contrario en los Términos y Condiciones Especiales. El ganador es responsable de cualquier obligación de declarar el premio a las autoridades fiscales pertinentes y
+                   El ganador es responsable de cualquier obligación de declarar el premio a las autoridades fiscales pertinentes y
                   de remitir, aceptar o pagar cualquier impuesto, tasa, retención y/o gasto de cualquier tipo, que en virtud de la aplicación de la normativa fiscal pudieran ser aplicables, quedando
                   el Responsable eximido de responsabilidad alguna en este sentido y no teniendo obligación alguna de proporcionar asesoramiento fiscal. Cualquier otro coste en el que se incurra,
                   además de los mencionados anteriormente y que sean incidentales al cumplimiento del premio, es responsabilidad del ganador (es).
